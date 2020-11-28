@@ -1,0 +1,14 @@
+
+.ImageCard > h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: rgba(196, 196, 196, 0.836);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.Images {
+    display: flex;
+    
+}

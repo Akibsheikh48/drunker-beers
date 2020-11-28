@@ -1,0 +1,40 @@
+.Image {
+    margin-left: 30px;
+    width: 400px;
+    height: 400px;
+    padding:10px; 
+    color:  rgba(196, 196, 196, 0.836);
+    
+}
+
+.Image > img {
+    height: 200px;
+    object-fit: contain;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 100ms;
+}
+.Image>img:hover {
+    transform: scale(1.09);
+}
+.Image >h2 {
+    margin-left: 20px;
+    font-style: italic;
+}
+.button {
+    margin-left: 20px;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: translate3d(0, 0, 75px);
+    color: #ffffff;
+    background: #8030307a;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: rgb(11, 182, 212);
+    text-decoration: none;
+    transition: 0.05s;
+    opacity: 0.6;
+    z-index: 10;
+    cursor: pointer;
+
+}

@@ -1,0 +1,51 @@
+.home {
+  background-image: url("https://img.etimg.com/photo/msid-72902267,quality-100/the-beer-smacks-of-expressive-fruity-and-funky-notes-but-drinks-like-a-crusher-.jpg");
+  background-repeat: no-repeat, repeat;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  display: flex;
+  color: aliceblue;
+}
+.title > h1 {
+  margin-left: 50%;
+  margin-top: 15%;
+  font-style: italic;
+}
+.world {
+  color: rgb(12, 236, 98);
+  margin-top: 16%;
+  margin-left: 10px;
+  height: 100px;
+}
+.text > h2 {
+  color: aliceblue;
+  margin-left: 50%;
+}
+.home > button {
+cursor: pointer;
+  top: 53%;
+  left: 60%;
+  font-size: 1.2rem;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 75px);
+  color: #ffffff;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border-color: rgb(11, 182, 212);
+  text-decoration: none;
+  transition: 0.05s;
+  opacity: 0.6;
+  z-index: 10;
+}
+.home > button:hover {
+  align-items: center;
+  opacity: 1;
+  color: #8030307a;
+  background:wheat ;
+}
